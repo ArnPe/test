@@ -56,7 +56,7 @@ def build_octree(points, max_depth, max_points_per_node):
     return root_node
 
 # Read LAS data from a file
-las = laspy.read("C:\\Users\\salci\\PycharmProjects\\pythonProject16\\2743_1234.las")
+las = laspy.read("Please Insert LAS file directory")
 points = np.vstack((las.x, las.y, las.z)).T
 
 # Example usage:
